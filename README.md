@@ -1,4 +1,27 @@
-**How Do We Evaluate RAG Using Ragas?**
+## Installation & Setup 🔧
+
+#### Clone the Repository:
+   ```bash
+   git clone https://github.com/prithvirajpawar5/RAG-evaluation-using-Ragas.git
+   cd RAG-evaluation-using-Ragas
+   ```
+
+#### Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
+#### Get Your OpenAI API Key
+To Get Your OpenAI API Key Follow these:
+
+1. Go to the OpenAI API Key page: [Click here to get your API key](https://platform.openai.com/api-keys)
+2. Sign in or Sign up if you haven't already.
+3. Generate an API key and copy it.
+4. Set up the key:
+    ```ini
+    os.environ["OPENAI_API_KEY"] = "replace with your API key"
+    ````
+    
+## 🧑‍💻 How Do We Evaluate RAG Using Ragas?
 
 Evaluating RAG (Retrieval-Augmented Generation) means assessing how effectively a system retrieves relevant information and how accurately the LLM (Large Language Model) generates responses based on that information.
 
@@ -30,4 +53,4 @@ To thoroughly evaluate an AI system, we need high-quality reference datasets. Fo
 
 Manually curating high-quality datasets is time-consuming and expensive. Ragas offers tools to generate **synthetic test datasets** using LLMs and embedding models, making evaluation more efficient.
 
-I’ve created a hands-on tutorial on RAG evaluation and test data generation using Ragas. Access it for free on GitHub!
+I’ve created a hands-on tutorial on RAG evaluation and test data generation using Ragas. Access it for free [on GitHub!](https://github.com/prithvirajpawar5/RAG-evaluation-using-Ragas.git)
